@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            #textarea-1 {
+                width: 50%;
+                height: 30px;
+                background: rgba(216, 112, 147, 0.267);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="username">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        <div>
+            <label for="usermessage">Message:</label>
+            <textarea id="textarea-1" name="message"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        </div>
+        <div>
+            <input type="radio" id="option1" name="options" value="option1">
+            <input type="radio" id="option1" name="options" value="option1">
+            <input type="radio" id="option1" name="options" value="option1">
+            <input type="radio" id="option1" name="options" value="option1">
+        </div>
+        <label>
+            <select id="list1" name="list1">
+                <option value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+                <option value="Option 4">Option 4</option>
+            </select>
+        </label>
+        <select id="list2" name="list2">
+            <option value="Option 1">Option 1</option>
+            <option value="Option 2">Option 2</option>
+            <option value="Option 3">Option 3</option>
+            <option value="Option 4">Option 4</option>q
+    </form>
+</body>
+
+</html>
